@@ -74,6 +74,7 @@ hr {
 .directions {
   margin-left: 3rem;
   margin-right: 4rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

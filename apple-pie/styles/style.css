@@ -43,32 +43,30 @@ h1 {
 
 
 
+hr {
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+
+
+
+
+
+
 
 .Introduction {
+  margin: 3rem 3rem 1rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .text-introduction {
-  height: 3rem;
-  font-size: 1.1rem;
-  margin: 4rem;
+  margin-bottom: 2rem;
 }
 
 .recipe-info {
   height: 3em;
-  align-self: center;
-  margin-bottom: 0.5rem;
-}
-
-
-
-
-
-hr {
-  margin-left: 4rem;
-  margin-right: 5rem;
 }
 
 
@@ -111,7 +109,7 @@ hr {
 
 .directions {
  height: 15rem;
- margin: 4rem;
+ margin: 4rem 4rem 2rem 4rem;
  display: flex;
  flex-direction: column;
  font-family: "Helvetica", sans-serif;
