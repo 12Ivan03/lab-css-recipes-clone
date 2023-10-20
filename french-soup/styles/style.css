@@ -5,5 +5,85 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 16px
+}
+
+.backsoup-image {
+  height: 30rem;
+  background-image: url(../images/soup.jpg);
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: aliceblue;
+  font-weight: lighter;
+}
+
+
+
+
+.intro {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-info {
+  height: 3rem;
+}
+
+hr {
+  margin-left: 3rem;
+  margin-right: 4rem;
+}
+
+
+
+
+
+.Ingredients-title-list {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.items {
+  list-style: none;
+  list-style-type: '- ';
+}
+
+.cooking-info {
+  height: 3.5rem;
+  margin-right: 4.5rem;
+  align-self: center;
+}
+
+
+
+
+
+
+.directions {
+  margin-left: 3rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-directions {
+  font-weight: bold;
+}
+
+.list-directions{
+  list-style: none;
+  list-style-type: decimal;
 }

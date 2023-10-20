@@ -24,21 +24,21 @@ body {
 /* Write your CSS below */
 
 .image-apple-pie {
+  height: 28rem;
   background-image: url(../images/apple-pie.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   display: flex;
   justify-content: center;
-  height: 28rem;
+  align-items: center;
   z-index: -1;
 }
 
 h1 {
   font-size: 4rem;
   color: aliceblue;
-  display: flex;
-  align-items: center;
+  font-weight: lighter;
 }
 
 
